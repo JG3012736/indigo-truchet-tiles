@@ -8,7 +8,7 @@ A truchet tiling algorithm I wrote in p5.js, based on my own styling heuristics,
 
 * **Built with:** JavaScript, p5.js, p5.js-svg, Cricut, screen printing, soy resist, and indigo dye
 * **Features:** hexagonal truchet tiling driven by Perlin noise, where one noise field picks the tile type and a second picks its rotation, layered line weights, and a final block print version that fits the repeatable pattern inside one large hexagonal tile for SVG export
-* **Context:** Self-initiated project combining generative code and textile techniques at Carnegie Mellon University
+* **Context:** A project combining generative code and textile techniques at Carnegie Mellon University
 
 ## Original Proposal
 
