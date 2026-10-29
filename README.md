@@ -9,6 +9,7 @@ A truchet tiling algorithm I wrote in p5.js, based on my own styling heuristics,
 * **Generate a new pattern:** refresh the page, or press the restart button on OpenProcessing. Every run uses new noise values, so each pattern is different.
 * **Save the final tile as an SVG:** on the [final version](https://openprocessing.org/sketch/2510544), click once on the sketch so it can read your keyboard, then press `s`. It downloads `myPattern.svg`.
 
+
 ![The final indigo dyed fabric](media/final-fabric.jpg)
 
 * **Built with:** JavaScript, p5.js, p5.js-svg, Cricut, screen printing, soy resist, and indigo dye
