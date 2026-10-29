@@ -2,7 +2,12 @@
 
 A truchet tiling algorithm I wrote in p5.js, based on my own styling heuristics, brought into the physical world as a hand screen printed, indigo dyed fabric. The final tiles were exported from code, cut on a Cricut, and printed onto fabric with a soy paste resist.
 
-**Try it live:** [jg3012736.github.io/indigo-truchet-tiles](https://jg3012736.github.io/indigo-truchet-tiles/) (refresh for a new pattern, press `s` to save an SVG)
+**Try it on OpenProcessing:** [Final tile design](https://openprocessing.org/sketch/2510544) · [Iteration 1](https://openprocessing.org/sketch/2510432) · [Iteration 2](https://openprocessing.org/sketch/2510435)
+
+## Controls
+
+* **Generate a new pattern:** refresh the page, or press the restart button on OpenProcessing. Every run uses new noise values, so each pattern is different.
+* **Save the final tile as an SVG:** on the [final version](https://openprocessing.org/sketch/2510544), click once on the sketch so it can read your keyboard, then press `s`. It downloads `myPattern.svg`.
 
 ![The final indigo dyed fabric](media/final-fabric.jpg)
 
@@ -20,7 +25,7 @@ My first sketch generated one huge page that would act as the entire fabric. Fro
 |---|---|
 | ![Simple Truchets sketch](media/iteration1-a.jpg) | ![Simple Truchets sketch, another generation](media/iteration1-b.jpg) |
 
-[Live: Simple Truchets](https://jg3012736.github.io/indigo-truchet-tiles/development/simple-truchets/)
+[View on OpenProcessing: Simple Truchets](https://openprocessing.org/sketch/2510432)
 
 ## Redesigning My Proposal
 
@@ -34,7 +39,7 @@ Along the way I also experimented with different line weights to create a more c
 |---|---|
 | ![Truchet Tiles sketch](media/iteration2-a.jpg) | ![Truchet Tiles sketch, another generation](media/iteration2-b.jpg) |
 
-[Live: Truchet Tiles](https://jg3012736.github.io/indigo-truchet-tiles/development/truchet-tiles/)
+[View on OpenProcessing: Truchet Tiles](https://openprocessing.org/sketch/2510435)
 
 ## Reformatting My Files
 
@@ -101,11 +106,6 @@ I do not have many images of the first round of dyeing but it was a simple proce
 I dipped the fabric into the dark dye vat another 5 times following the same procedures. Then, I washed and dried my fabric. Finally, I cleaned my fabric in a tub of slightly heated water and vinegar to bring out the color of the indigo and get rid of the remaining soy paste. While I do not think the ombre was all that successful (I should have applied it before doing my first dips), I really like the effect of the subtle designs between each tile and think this project came out great for my first attempt at a procedure that I created using my own software and tiling techniques.
 
 ![Final look of the fabric](media/final-look.jpg)
-
-## Controls
-
-* **Refresh:** generate a new pattern
-* **s:** save the final tile design as an SVG (main version only)
 
 ## Run Locally
 
