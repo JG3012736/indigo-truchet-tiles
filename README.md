@@ -9,12 +9,11 @@ A truchet tiling algorithm I wrote in p5.js, based on my own styling heuristics,
 * **Generate a new pattern:** refresh the page, or press the restart button on OpenProcessing. Every run uses new noise values, so each pattern is different.
 * **Save the final tile as an SVG:** on the [final version](https://openprocessing.org/sketch/2510544), click once on the sketch so it can read your keyboard, then press `s`. It downloads `myPattern.svg`.
 
-
 ![The final indigo dyed fabric](media/final-fabric.jpg)
 
 * **Built with:** JavaScript, p5.js, p5.js-svg, Cricut, screen printing, soy resist, and indigo dye
 * **Features:** hexagonal truchet tiling driven by Perlin noise, where one noise field picks the tile type and a second picks its rotation, layered line weights, and a final block print version that fits the repeatable pattern inside one large hexagonal tile for SVG export
-* **Context:** A project combining generative code and textile techniques at Carnegie Mellon University
+* **Context:** Combined work from Golan Levin's creative coding course and Culture of Color at Carnegie Mellon University, merging my generative code with indigo textile techniques between courses to develop my own self initiated interdisciplinary project.
 
 ## Original Proposal
 
@@ -125,4 +124,4 @@ python3 -m http.server 8000
 
 ## Credits
 
-Created by Jenna Gomes. Truchet layout referenced from [this tutorial](https://www.youtube.com/watch?v=Qwb2VYrN-us). Perplexity Pro was used for help with the tiling math and for debugging the SVG clipping masks. SVG rendering uses the [p5.js-svg](https://github.com/zenozeng/p5.js-svg) library. Also on [OpenProcessing](https://openprocessing.org/@u498618).
+Created by Jenna Gomes. Truchet tiling parameters set by Golan Levin, who also pointed me to the p5.js-svg library. Indigo dye pattern project and basic indigo dyeing techniques taught by my Culture of Color professors, which I then iterated on myself multiple times to adapt the process for the Cricut. Truchet layout referenced from [this tutorial](https://www.youtube.com/watch?v=Qwb2VYrN-us). Perplexity Pro was used for help with the tiling math and for debugging the SVG clipping masks. SVG rendering uses the [p5.js-svg](https://github.com/zenozeng/p5.js-svg) library. Also on [OpenProcessing](https://openprocessing.org/@u498618).
